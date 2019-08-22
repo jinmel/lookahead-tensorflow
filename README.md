@@ -1,10 +1,12 @@
-## Lookahead Optimizer [https://arxiv.org/abs/1907.08610]
-
-This is a tensorflow implementation of lookahead optimizer. Read the paper for
+## Lookahead Optimizer
+This is a tensorflow implementation of lookahead optimizer. Read the [paper](https://arxiv.org/abs/1907.08610)
+for
 details.
 
 It is essentially a wrapper around any optimizer that looks ahead k steps and
 linearly interploates other weights accordingly to that direction.
+
+Tested with tensorflow 1.13
 
 ## Example
 
